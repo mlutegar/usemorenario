@@ -1,7 +1,16 @@
-# No menu hamburgue para celular, alterar os itens de "Produtos"
+# No menu hamburgue para celular, alterar os sub-itens de 'Produtos'
 
-Atualmente aparece as categorias:
+No enu hamburgue tem os seguintes itens:
 ```
+Inicio
+Produtos
+Sobre Nós
+Fale Conosco
+```
+
+Quando eu clico para ve os subitens de Produtos aparece as sub-categorias:
+```
+Vê todos os produtos
 Lançamentos
 Backstage
 Evento
@@ -9,14 +18,16 @@ Evento
 
 Quero que apareça todos os produtos, tipo:
 ```
+Vê todos os produtos
 Vestido Classy
-Ocuto
 Top Saia
 Top Essential
-Top ombro Único
-Top Ctassy
-Top BOOSt
-TOP Amarração
-Oculto
-Conn•nto MB
+Top Ombro Único
+Top Classy
+Top Boost
+Top Amarração
 ```
+
+O link de cada é tipo: https://usemorenario.com/produtos/top-saia/
+
+O arquivo que tem esses itens é o: @snipplets/navigation/navigation-nav-list.tpl
