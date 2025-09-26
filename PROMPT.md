@@ -1,33 +1,12 @@
-# No menu hamburgue para celular, alterar os sub-itens de 'Produtos'
+# Adicionar informações no meios de envio
 
-No enu hamburgue tem os seguintes itens:
-```
-Inicio
-Produtos
-Sobre Nós
-Fale Conosco
-```
+Eu tenho o arquivo @snipplets/shipping/shipping-calculator.tpl. Eu não sei se é nele que mostra os Meios de envio para o
+produto, em que mosrta os tipos de envio a domicílio. eu queria colocar uma informação estática aqui. um extra:
 
-Quando eu clico para ve os subitens de Produtos aparece as sub-categorias:
 ```
-Vê todos os produtos
-Lançamentos
-Backstage
-Evento
-```
+Minha proposta de solução é criar uma seção "Meios de Envio" na tela, incluindo as opções:
+- Envio por Uber frete
+- Retirada no local (com endereços detalhados)
 
-Quero que apareça todos os produtos, tipo:
+Para ambas as opções, o cliente seria direcionado ao WhatsApp para finalizar os detalhes. Ao clicar no botão correspondente, seria redirecionado automaticamente para a conversa no WhatsApp.
 ```
-Vê todos os produtos
-Vestido Classy
-Top Saia
-Top Essential
-Top Ombro Único
-Top Classy
-Top Boost
-Top Amarração
-```
-
-O link de cada é tipo: https://usemorenario.com/produtos/top-saia/
-
-O arquivo que tem esses itens é o: @snipplets/navigation/navigation-nav-list.tpl

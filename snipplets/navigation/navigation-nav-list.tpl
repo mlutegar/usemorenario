@@ -60,15 +60,52 @@
 								</div>
 								<div class="modal-body p-0">
 									{% if item.isCategory %}
-										<li class="nav-item py-1">
+										<li class="js-desktop-nav-item  nav-item">
 											<a class="nav-list-link position-relative font-small py-3 {{ item.current ? 'selected' : '' }}" href="{{ item.url }}">
 												{% if item.isRootCategory %}
-													{{ 'Ver todos los productos' | translate }}
+													{{ 'Vê todos os produtos' | translate }}
 												{% else %}
 													{{ 'Ver todo en' | translate }} {{ item.name }}
 												{% endif %}
 											</a>
 										</li>
+										{% if item.isRootCategory %}
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/vestido-classy/">
+													{{ 'Vestido Classy' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-saia/">
+													{{ 'Top Saia' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-essential/">
+													{{ 'Top Essential' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-ombro-unico/">
+													{{ 'Top Ombro Único' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-classy/">
+													{{ 'Top Classy' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-boost/">
+													{{ 'Top Boost' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-amarracao/">
+													{{ 'Top Amarração' | translate }}
+												</a>
+											</li>
+										{% endif %}
 									{% endif %}
 							{% endif %}
 
