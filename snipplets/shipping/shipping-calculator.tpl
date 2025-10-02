@@ -102,6 +102,61 @@
 			</div>
 			<div class="js-shipping-calculator-response transition-soft {% if product_detail %}list {% else %} radio-buttons-group{% endif %}" style="display: none;"></div>
 		</div>
+
+		{# Seção Meios de Envio Estáticos #}
+		<div class="mt-4 border-top pt-3">
+			<h5 class="mb-3">{{ 'Meios de Envio' | translate }}</h5>
+
+			<div class="shipping-options">
+				{# Opção Uber Frete #}
+				<div class="shipping-option border rounded p-3 mb-3">
+					<div class="d-flex align-items-center justify-content-between">
+						<div class="shipping-option-info">
+							<div class="d-flex align-items-center mb-2">
+								<svg class="icon-inline icon-md svg-icon-text mr-2"><use xlink:href="#truck"/></svg>
+								<strong>{{ 'Envio por Uber Frete' | translate }}</strong>
+							</div>
+							<p class="text-muted mb-0 font-small">{{ 'Entrega rápida e segura através do Uber Frete' | translate }}</p>
+						</div>
+						<div class="shipping-option-action">
+							<a href="https://wa.me/+5511999999999?text={{ 'Olá! Gostaria de solicitar entrega via Uber Frete para o produto:' | translate | url_encode }}"
+							   target="_blank"
+							   class="btn btn-primary btn-sm">
+								<svg class="icon-inline icon-sm mr-1"><use xlink:href="#whatsapp"/></svg>
+								{{ 'Solicitar' | translate }}
+							</a>
+						</div>
+					</div>
+				</div>
+
+				{# Opção Retirada no Local #}
+				<div class="shipping-option border rounded p-3">
+					<div class="d-flex align-items-center justify-content-between">
+						<div class="shipping-option-info">
+							<div class="d-flex align-items-center mb-2">
+								<svg class="icon-inline icon-md svg-icon-text mr-2"><use xlink:href="#store"/></svg>
+								<strong>{{ 'Retirada no Local' | translate }}</strong>
+							</div>
+							<div class="text-muted font-small">
+								<p class="mb-1">{{ 'Endereços disponíveis:' | translate }}</p>
+								<ul class="mb-0 pl-3">
+									<li>{{ 'Loja Centro - Rua das Flores, 123 - Centro' | translate }}</li>
+									<li>{{ 'Loja Shopping - Av. Principal, 456 - Shopping Mall' | translate }}</li>
+								</ul>
+							</div>
+						</div>
+						<div class="shipping-option-action">
+							<a href="https://wa.me/+5511999999999?text={{ 'Olá! Gostaria de agendar retirada no local para o produto:' | translate | url_encode }}"
+							   target="_blank"
+							   class="btn btn-primary btn-sm">
+								<svg class="icon-inline icon-sm mr-1"><use xlink:href="#whatsapp"/></svg>
+								{{ 'Agendar' | translate }}
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
     </div>
 </div>
 
