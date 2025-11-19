@@ -71,11 +71,6 @@
 										</li>
 										{% if item.isRootCategory %}
 											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/vestido-classy/">
-													{{ 'Vestido Classy' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
 												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-saia/">
 													{{ 'Top Saia' | translate }}
 												</a>
@@ -103,6 +98,26 @@
 											<li class="js-desktop-nav-item  nav-item">
 												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-amarracao/">
 													{{ 'Top Amarração' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-chic/">
+													{{ 'Top chic' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-exclusive/">
+													{{ 'Top Exclusive' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/body-manga-longa/">
+													{{ 'Body manga longa' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/regata/">
+													{{ 'Regata' | translate }}
 												</a>
 											</li>
 										{% endif %}
