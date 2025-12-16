@@ -8,7 +8,7 @@
 {% endif %}
 
 {% for item in navigation %}
-	
+
 	{% if has_featured_link %}
 		{% set link_url = item.url | split('://') | last | split('/') | slice(1) | join('/') | trim('/') %}
 		{% set featured_link_classes = link_url == featured_link_url ? 'nav-list-link-featured font-weight-bold' %}
@@ -71,7 +71,7 @@
 										</li>
 										{% if item.isRootCategory %}
 											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-saia/">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-saia-oq08j/">
 													{{ 'Top Saia' | translate }}
 												</a>
 											</li>
@@ -81,7 +81,7 @@
 												</a>
 											</li>
 											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-ombro-unico/">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-de-um-ombro/">
 													{{ 'Top Ombro Único' | translate }}
 												</a>
 											</li>
@@ -120,6 +120,31 @@
 													{{ 'Regata' | translate }}
 												</a>
 											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/regata-malu-osgg6/">
+													{{ 'Regata Malu' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/saia-luana-ha462/">
+													{{ 'Saia Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/vestido-luana-3r5n7/">
+													{{ 'Vestido Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/blusa-luana-c9gyv/">
+													{{ 'Blusa Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/biquini-luana/">
+													{{ 'Biquini Luana' | translate }}
+												</a>
+											</li>
 										{% endif %}
 									{% endif %}
 							{% endif %}
@@ -129,7 +154,7 @@
 								{% set hamburger_val = true %}
 							{% endif %}
 							{% include 'snipplets/navigation/navigation-nav-list.tpl' with { 'navigation' : item.subitems, 'subitem' : true, 'hamburger' : hamburger_val  } %}
-							
+
 							{% if hamburger %}
 								</div>
 							{% endif %}
