@@ -69,6 +69,9 @@
 												{% endif %}
 											</a>
 										</li>
+
+										{% include 'snipplets/navigation/navigation-nav-list.tpl' with { 'navigation' : item.subitems, 'subitem' : true, 'hamburger' : true } %}
+
 										{% if item.isRootCategory %}
 											<li class="js-desktop-nav-item  nav-item">
 												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-saia-oq08j/">
@@ -147,13 +150,11 @@
 											</li>
 										{% endif %}
 									{% endif %}
-							{% endif %}
+								{% endif %}
 
-							{% set hamburger_val = false %}
-							{% if hamburger %}
-								{% set hamburger_val = true %}
+							{% if not hamburger %}
+								{% include 'snipplets/navigation/navigation-nav-list.tpl' with { 'navigation' : item.subitems, 'subitem' : true, 'hamburger' : false } %}
 							{% endif %}
-							{% include 'snipplets/navigation/navigation-nav-list.tpl' with { 'navigation' : item.subitems, 'subitem' : true, 'hamburger' : hamburger_val  } %}
 
 							{% if hamburger %}
 								</div>
