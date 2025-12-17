@@ -74,7 +74,62 @@
 
 										{% if item.isRootCategory %}
 											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-saia-oq08j/">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/vestido-duda-r57go/">
+													{{ 'Vestido Duda' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/saia-exclusive-5nc5z/">
+													{{ 'Saia Exclusive' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-exclusive/">
+													{{ 'Top Exclusive' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/conjunto-luana-podzi/">
+													{{ 'Conjunto Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/blusa-luana-c9gyv/">
+													{{ 'Blusa Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/saia-luana-9v89h/">
+													{{ 'Saia Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/kit-luana-s7a7z/">
+													{{ 'Kit Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/biquini-luana/">
+													{{ 'Biquini Luana' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/regata-malu-osgg6/">
+													{{ 'Regata Malu' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-chic/">
+													{{ 'Top chic' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/regata/">
+													{{ 'Regata' | translate }}
+												</a>
+											</li>
+											<li class="js-desktop-nav-item  nav-item">
+												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-saia-4xmez/">
 													{{ 'Top Saia' | translate }}
 												</a>
 											</li>
@@ -104,48 +159,8 @@
 												</a>
 											</li>
 											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-chic/">
-													{{ 'Top chic' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/top-exclusive/">
-													{{ 'Top Exclusive' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
 												<a class="nav-list-link" href="https://usemorenario.com/produtos/body-manga-longa/">
 													{{ 'Body manga longa' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/regata/">
-													{{ 'Regata' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/regata-malu-osgg6/">
-													{{ 'Regata Malu' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/saia-luana-ha462/">
-													{{ 'Saia Luana' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/vestido-luana-3r5n7/">
-													{{ 'Vestido Luana' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/blusa-luana-c9gyv/">
-													{{ 'Blusa Luana' | translate }}
-												</a>
-											</li>
-											<li class="js-desktop-nav-item  nav-item">
-												<a class="nav-list-link" href="https://usemorenario.com/produtos/biquini-luana/">
-													{{ 'Biquini Luana' | translate }}
 												</a>
 											</li>
 										{% endif %}

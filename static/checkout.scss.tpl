@@ -782,6 +782,12 @@ a {
     overflow: hidden;
   }
 
+  .shipping-option > .d-flex.align-items-center.justify-content-between {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
   .btn {
     margin: 0;
     background: var(--main-background);
