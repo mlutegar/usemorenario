@@ -109,8 +109,8 @@
 
 			<div class="shipping-options">
 				{# Opção Uber Frete #}
-				<div class="shipping-option border rounded p-3">
-					<div class="d-flex align-items-center justify-content-between">
+				<div class="shipping-option border rounded p-3 shipping-option-uber-frete">
+					<div class="shipping-option-layout d-flex align-items-center justify-content-between">
 						<div class="shipping-option-info">
 							<div class="d-flex align-items-center mb-2">
 								<svg class="icon-inline icon-md svg-icon-text mr-2"><use xlink:href="#truck"/></svg>
