@@ -2982,8 +2982,10 @@ DOMContentLoaded.addEventOrExecute(() => {
             createSwiper(
                 '.js-swiper-product', {
                     lazy: true,
-                    slidesPerView: 'auto',
+                    slidesPerView: 1,
+                    centeredSlides: true,
                     threshold: 5,
+                    spaceBetween: 0,
                     centerInsufficientSlides: true,
                     watchOverflow: true,
                     pagination: {
